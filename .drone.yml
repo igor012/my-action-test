@@ -4,7 +4,7 @@ type: kubernetes
 name: drone
 
 metadata:
-  namespace: drone
+  namespace: drone-
 steps:
 - name: greetings
   image: alpine
